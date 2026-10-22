@@ -10,3 +10,14 @@ function showMessage() {
 function contactMe() {
     window.location.href = "mailto:umair@example.com";
 }
+function showDateTime() {
+    const now = new Date();
+
+    document.getElementById("datetime").textContent =
+        "Current date and time: " + now.toLocaleString();
+}
+
+// New feature: change the website theme
+function changeTheme() {
+    document.body.classList.toggle("dark-mode");
+}

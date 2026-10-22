@@ -118,3 +118,23 @@ footer {
         font-size: 30px;
     }
 }
+
+/* Dark theme */
+.dark-mode {
+    background-color: #1e293b;
+    color: #f8fafc;
+}
+
+.dark-mode section h2 {
+    color: #93c5fd;
+}
+
+.dark-mode .skill {
+    background-color: #334155;
+    color: #f8fafc;
+}
+
+#datetime {
+    margin: 15px 0;
+    font-weight: bold;
+}
